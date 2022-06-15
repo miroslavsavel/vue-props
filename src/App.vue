@@ -4,6 +4,7 @@
   <Greet name="Miroslav" heroName="batman" />
   <Greet name="Diana" heroName="megaman"/>
   <Greet name="Clark" heroName="miniman"/>
+  <Greet :name="name" :heroName="channel"/>
 </template>
 
 <script>
@@ -15,6 +16,12 @@ export default {
   components: {
     // HelloWorld
     Greet
+  },
+  data(){
+    return{
+      name: 'Vishwas',
+      channel: 'Codevolution'
+    }
   }
 }
 </script>
