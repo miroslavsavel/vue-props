@@ -1,9 +1,9 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <Greet name="Miroslav" />
-  <Greet name="Diana" />
-  <Greet name="Clark" />
+  <Greet name="Miroslav" heroName="batman" />
+  <Greet name="Diana" heroName="megaman"/>
+  <Greet name="Clark" heroName="miniman"/>
 </template>
 
 <script>

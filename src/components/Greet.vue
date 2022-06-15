@@ -1,11 +1,11 @@
 <template>
-  <h2>Hello {{name}} from Greet component</h2>
+  <h2>Hello {{name}} from Greet component {{ heroName}}</h2>
 </template>
 
 <script>
 export default {
     meno: "Greet",
-    props: ['name']
+    props: ['name', 'heroName']
 };
 </script>
 
